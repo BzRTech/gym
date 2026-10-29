@@ -1,0 +1,12 @@
+{
+  "name": "checkpoint-app",
+  "version": "0.1.0",
+  "private": true,
+  "description": "Protótipo do app da Checkpoint: agenda de CrossFit/Hyrox + check-in social",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "engines": {
+    "node": ">=18"
+  }
+}

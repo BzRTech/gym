@@ -14,6 +14,35 @@ python -m http.server 5173
 
 Abra http://localhost:5173. No computador o app aparece dentro de uma moldura de celular; no celular ocupa a tela toda.
 
+Ou com Node (o mesmo servidor usado no deploy):
+
+```bash
+npm start
+```
+
+## Deploy no Render
+
+**Opção recomendada: Static Site** (grátis e não hiberna)
+
+| Campo | Valor |
+| --- | --- |
+| Branch | `main` |
+| Root Directory | (vazio) |
+| Build Command | (vazio) |
+| Publish Directory | `.` |
+
+**Opção Web Service** (usa o `server.js`, sem dependências)
+
+| Campo | Valor |
+| --- | --- |
+| Language | Node |
+| Branch | `main` |
+| Root Directory | (vazio) |
+| Build Command | `yarn` (ou `npm install`) |
+| Start Command | `npm start` |
+
+O servidor lê a porta da variável `PORT`, que o Render define sozinho. No plano grátis o Web Service hiberna depois de um tempo sem acesso e o primeiro carregamento leva alguns segundos.
+
 ## O que tem
 
 - **Início**: sequência de dias treinados, pontos, semana atual, próxima aula reservada e feed de check-ins dos grupos (reações 🔥💪👏 e comentários).
@@ -36,6 +65,7 @@ index.html       casca do app
 css/styles.css   identidade visual (azul-roxo noturno + laranja/vermelho, Exo 2 itálico)
 js/data.js       usuários, grade de aulas, grupos e feed fictícios
 js/app.js        telas, estado e interações
+server.js        servidor estático para rodar como Web Service
 ```
 
 ## Pendências para virar produto
