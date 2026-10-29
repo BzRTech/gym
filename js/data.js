@@ -21,34 +21,34 @@ window.CP_DATA = {
     hyrox:    { name: 'Hyrox',    icon: 'run' },
   },
 
-  coaches: ['Coach Diego', 'Coach Bia', 'Coach Marcos', 'Coach Nanda', 'Coach Léo'],
+  coaches: ['Coach Josinaldo', 'Coach Carol'],
 
   // [horário, modalidade, foco, coach (índice), espaço, vagas, duração em min]
   schedule: {
     weekdayA: [ // seg, qua, sex
       ['06:00', 'crossfit', 'WOD',                0, 'Box',        16, 60],
-      ['07:00', 'hyrox',    'Corrida + estações', 3, 'Área Hyrox', 14, 60],
-      ['12:00', 'crossfit', 'WOD express',        2, 'Box',        14, 45],
-      ['17:30', 'hyrox',    'Endurance',          3, 'Área Hyrox', 14, 60],
+      ['07:00', 'hyrox',    'Corrida + estações', 1, 'Área Hyrox', 14, 60],
+      ['12:00', 'crossfit', 'WOD express',        0, 'Box',        14, 45],
+      ['17:30', 'hyrox',    'Endurance',          1, 'Área Hyrox', 14, 60],
       ['18:30', 'crossfit', 'WOD',                0, 'Box',        18, 60],
-      ['19:30', 'crossfit', 'LPO',                4, 'Box',        12, 60],
+      ['19:30', 'crossfit', 'LPO',                0, 'Box',        12, 60],
       ['20:30', 'hyrox',    'Corrida + estações', 1, 'Área Hyrox', 14, 60],
     ],
     weekdayB: [ // ter, qui
-      ['06:00', 'hyrox',    'Corrida + estações', 3, 'Área Hyrox', 14, 60],
+      ['06:00', 'hyrox',    'Corrida + estações', 1, 'Área Hyrox', 14, 60],
       ['07:00', 'crossfit', 'WOD',                0, 'Box',        16, 60],
-      ['12:00', 'crossfit', 'WOD express',        2, 'Box',        14, 45],
+      ['12:00', 'crossfit', 'WOD express',        0, 'Box',        14, 45],
       ['17:30', 'crossfit', 'Ginástica',          1, 'Box',        12, 60],
-      ['18:30', 'hyrox',    'Estações',           3, 'Área Hyrox', 14, 60],
+      ['18:30', 'hyrox',    'Estações',           1, 'Área Hyrox', 14, 60],
       ['19:30', 'crossfit', 'WOD',                0, 'Box',        18, 60],
-      ['20:30', 'crossfit', 'Iniciantes',         4, 'Box',        12, 60],
+      ['20:30', 'crossfit', 'Iniciantes',         0, 'Box',        12, 60],
     ],
     saturday: [
-      ['08:00', 'hyrox',    'Simulado Hyrox',     3, 'Área Hyrox', 20, 90],
+      ['08:00', 'hyrox',    'Simulado Hyrox',     1, 'Área Hyrox', 20, 90],
       ['09:30', 'crossfit', 'WOD em dupla',       0, 'Box',        20, 60],
     ],
     sunday: [
-      ['09:00', 'crossfit', 'Open Box',           2, 'Box',        24, 90],
+      ['09:00', 'crossfit', 'Open Box',           0, 'Box',        24, 90],
     ],
   },
 
